@@ -1,156 +1,113 @@
-# Awesome Celebrity AI Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Celebrity AI Agents
 
-> A curated list of celebrities, tech leaders, and public figures who have launched personal AI agents, digital twins, and AI clones.
+A curated list of tech and AI leaders who have built or launched personal AI agents, digital twins, and AI-powered tools — focused on quality over quantity.
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> This list focuses exclusively on verified tech/AI leaders who have publicly announced their AI agents on X (Twitter). Each entry includes who they are, what they built, and why it matters.
 
 ## Contents
 
-- [Tech Leaders](#tech-leaders)
-- [Wellness](#wellness)
-- [Authors](#authors)
-- [Entertainment](#entertainment)
-- [Music](#music)
-- [Business](#business)
-- [Historical](#historical)
-- [Platforms](#platforms)
-- [Articles & Resources](#articles--resources)
+- [AI Agent Builders](#ai-agent-builders)
+- [Digital Twins & AI Clones](#digital-twins--ai-clones)
+- [Platforms & Ecosystem](#platforms--ecosystem)
 - [Contributing](#contributing)
-- [License](#license)
 
-## Tech Leaders
+---
 
-| Person | AI Agent/Clone | Platform | Type | Description |
-|--------|----------------|----------|------|-------------|
-| Reid Hoffman | Reid AI | Custom GPT | Conversational AI | LinkedIn co-founder's AI trained on his books and podcasts |
-| Brian Halligan | Brian Bot | Delphi | Digital Twin | HubSpot co-founder's AI clone for business advice |
-| Tyler Denk | Tyler Clone | Delphi | Digital Twin | Beehiiv CEO's AI for newsletter and growth insights |
-| Gary Vaynerchuk | Ask Gary Vee Bot | Multiple platforms | Conversational AI | Entrepreneur's AI assistant available across various platforms |
-| Mark Zuckerberg | Meta AI Avatars | Meta AI Studio | AI Avatar | Meta's AI avatar creation platform announced by Zuckerberg |
-| Marc Benioff | Agentforce | Salesforce | Enterprise AI Agent | Salesforce CEO's AI agent platform for business automation |
+## AI Agent Builders
 
-## Wellness
+Tech leaders who have open-sourced or publicly launched personal AI agent systems.
 
-| Person | AI Agent/Clone | Platform | Type | Description |
-|--------|----------------|----------|------|-------------|
-| Deepak Chopra | Digital Deepak | Twin Protocol/Delphi | Digital Twin | AI trained on 90+ books and decades of wellness teachings |
-| Tony Robbins | Tony AI | Steno.ai/ElevenLabs | Voice Clone | Life coach's voice AI for motivational guidance |
-| Brendon Burchard | Brendon Clone | Delphi | Digital Twin | High-performance coach's AI for personal development |
-| Koya Webb | Koya AI | Delphi | Digital Twin | Yoga instructor and wellness expert's AI clone |
+### Garry Tan
 
-## Authors
+**CEO, Y Combinator** | [@garrytan](https://x.com/garrytan) | 1M+ followers
 
-| Person | AI Agent/Clone | Platform | Type | Description |
-|--------|----------------|----------|------|-------------|
-| Naval Ravikant | Ask Naval | Community-built | Conversational AI | Angel investor's AI built by community from his writings/tweets |
-| Lenny Rachitsky | Lenny Bot | Delphi | Digital Twin | Product advisor's AI trained on newsletter and expertise |
-| Brian Tracy | Brian Tracy AI | Delphi | Digital Twin | Self-development author's AI for success principles |
-| Rob Henderson | Rob AI | Delphi | Digital Twin | Author and psychologist's AI clone |
-| Mark Schaefer | Mark AI | Delphi | Digital Twin | Marketing author's AI for business insights |
+Open-sourced **gstack** — his complete Claude Code setup that turns a single AI model into a virtual engineering team with 13 specialized agent roles (CEO, Eng Manager, Designer, QA Lead, Release Engineer, etc.). Announced on X in March 2026, it hit 10,000 GitHub stars in 48 hours.
 
-## Entertainment
+- **What he built**: [gstack](https://github.com/garrytan/gstack) — 10+ opinionated slash commands for Claude Code that separate planning, review, QA, and shipping into distinct AI agent personas
+- **Scale**: Averaged 10,000 LOC and 100 PRs/week over 50 days using this setup
+- **Key innovation**: A 200ms browser skill (`/browse`) using a long-lived headless Chromium daemon, and the separation of "plan review" from "code review" to prevent AI rubber-stamping
+- **Why it matters**: Demonstrates that a non-engineer CEO can ship production software at engineering-team velocity using well-structured AI agent prompts
 
-| Person | AI Agent/Clone | Platform | Type | Description |
-|--------|----------------|----------|------|-------------|
-| Howie Mandel | Howie AI | DeepBrain AI | AI Avatar | Comedian and AGT host's interactive AI avatar |
-| Katie Price | Jordan AI | OhChat | AI Companion | British media personality's AI chatbot |
-| Carmen Electra | Carmen AI | OhChat | AI Companion | Actress and model's AI companion |
-| Eva Herzigova | Eva AI | Unsigned Group | AI Avatar | Supermodel's AI avatar for brand partnerships |
-| Harrison Ford | Young Indiana Jones | Lucasfilm/ILM | De-aging AI | AI de-aging technology for Indiana Jones franchise |
+### Andrej Karpathy
 
-## Music
+**Founder, Eureka Labs | Former Director of AI, Tesla | Co-founder, OpenAI** | [@karpathy](https://x.com/karpathy) | 1M+ followers
 
-| Person | AI Agent/Clone | Platform | Type | Description |
-|--------|----------------|----------|------|-------------|
-| Grimes | Elf.Tech | Elf.Tech (Open Source) | Voice Clone | Open-source voice AI allowing anyone to create songs with her voice |
+Open-sourced **autoresearch** — an autonomous AI research agent that runs ML experiments overnight without human involvement. Announced on X in March 2026, the post received 8.6M views in two days.
 
-## Business
+- **What he built**: [autoresearch](https://github.com/karpathy/autoresearch) — a 630-line Python script (MIT License) that automates the scientific method: modify code, train for 5 minutes, evaluate, keep or discard, repeat
+- **Results**: In one run, the agent completed 700 experiments over two days, found 20 additive improvements, and cut training time by 11%
+- **Key innovation**: Designed for single-GPU setups, making autonomous AI research accessible without cluster-scale compute
+- **Why it matters**: First widely-adopted open-source tool proving that AI agents can conduct meaningful ML research autonomously — Shopify's CEO reported a 19% model improvement from running it overnight
 
-| Person | AI Agent/Clone | Platform | Type | Description |
-|--------|----------------|----------|------|-------------|
-| Codie Sanchez | Codie AI | Delphi | Digital Twin | Business investor's AI for small business acquisition advice |
-| Vanessa Marin | Vanessa AI | Delphi | Digital Twin | Relationship therapist's AI clone |
+---
 
-## Historical
+## Digital Twins & AI Clones
 
-| Person | AI Agent/Clone | Platform | Type | Description |
-|--------|----------------|----------|------|-------------|
-| Ayn Rand | Ayn Rand AI | Delphi/Prometheus Foundation | Digital Twin | Philosopher's AI trained on her complete works |
+Tech leaders who have created AI replicas of themselves for public interaction.
 
-## Platforms
+### Reid Hoffman
 
-### Delphi
-- **Funding**: $16M from Sequoia Capital and Anthropic
-- **Description**: Leading digital twin platform enabling creators to clone their expertise
-- **Notable Features**: Voice cloning, knowledge training, white-label options
-- **Website**: [delphi.ai](https://delphi.ai)
+**Co-founder, LinkedIn | Partner, Greylock** | [@reidhoffman](https://x.com/reidhoffman) | 3M+ followers
 
-### Twin Protocol
-- **Description**: Web3-based digital twin platform
-- **Notable Features**: Decentralized ownership, NFT integration
-- **Key Deployment**: Digital Deepak
+Created **Reid AI** — a digital twin trained on 20+ years of his books, podcasts, interviews, speeches, and articles. The avatar delivers keynotes, responds to audience questions at conferences, and posts on his social channels in 9 languages.
 
-### OhChat
-- **Description**: AI companion platform for celebrities
-- **Notable Features**: Intimate conversation AI, subscription-based
-- **Focus**: Entertainment and fan engagement
+- **What he built**: Reid AI — a GPT-4-based conversational AI paired with a lifelike video avatar (HeyGen for visuals, ElevenLabs for voice cloning)
+- **Capabilities**: Dynamic facial expressions, natural voice delivery, accurate lip sync across 9 languages
+- **Use case**: Stands in at conferences and speaking engagements when Hoffman is unavailable; shares commentary on his social channels
+- **Why it matters**: One of the first major tech investors to fully deploy an AI twin as a public-facing representative, normalizing the concept for enterprise leaders
 
-### DeepBrain AI
-- **Description**: AI avatar and virtual human platform
-- **Notable Features**: Photorealistic avatars, real-time interaction
-- **Key Deployment**: Howie Mandel
+### Sebastian Siemiatkowski
 
-### Meta AI Studio
-- **Company**: Meta (Facebook)
-- **Description**: Platform for creating AI avatars and characters
-- **Notable Features**: Instagram/Facebook integration
-- **Announced by**: Mark Zuckerberg
+**CEO, Klarna** | [@klarnaseb](https://x.com/klarnaseb) | 100K+ followers
 
-### Genies
-- **Description**: Avatar creation platform for celebrities
-- **Notable Features**: 3D avatars, metaverse integration
-- **Focus**: Digital identity and expression
+Used an **AI clone of himself** to deliver Klarna's Q1 2025 financial results and launched an AI-powered CEO hotline where customers can speak directly with his AI replica.
 
-### ElevenLabs
-- **Description**: Advanced voice AI and cloning platform
-- **Notable Features**: High-quality voice synthesis, emotional range
-- **Key Deployment**: Tony Robbins voice clone
+- **What he built**: A hyperreal AI avatar for earnings reports, plus a customer feedback hotline featuring his AI voice clone trained on his voice and business insights
+- **Announcement**: The AI avatar video opened with: "It's me, or rather my AI avatar, here to share Klarna's Q1 2025 highlights"
+- **Results**: Reported 100M active consumers, fourth consecutive profitable quarter, 15% YoY revenue growth — all delivered by AI
+- **Why it matters**: First public-company CEO to delegate official financial communications to an AI clone, proving the concept works for investor-grade communications
 
-### Elf.Tech
-- **Creator**: Grimes
-- **Description**: Open-source voice cloning platform
-- **Notable Features**: Free to use, royalty sharing model
-- **Philosophy**: Democratized AI voice technology
+---
 
-## Articles & Resources
+## Platforms & Ecosystem
 
-### News & Analysis
-- [The Rise of Celebrity AI Clones - TechCrunch](https://techcrunch.com/)
-- [Delphi Raises $16M for Digital Twins - VentureBeat](https://venturebeat.com/)
-- [Meta's AI Studio Launch - The Verge](https://www.theverge.com/)
-- [Deepak Chopra's Digital Twin Interview - Wired](https://www.wired.com/)
-- [Grimes Opens Up Voice AI to Public - Billboard](https://www.billboard.com/)
+### Marc Benioff
 
-### Industry Reports
-- [The Future of Personal AI Agents - a16z](https://a16z.com/)
-- [Celebrity AI Ethics and Rights - Harvard Law](https://hls.harvard.edu/)
-- [Digital Twin Market Analysis - Gartner](https://www.gartner.com/)
+**CEO, Salesforce** | [@benioff](https://x.com/benioff) | 1.5M+ followers
 
-### Platforms & Tools
-- [Delphi Platform Overview](https://delphi.ai)
-- [Twin Protocol Documentation](https://twinprotocol.com)
-- [ElevenLabs Voice AI](https://elevenlabs.io)
-- [Meta AI Studio](https://ai.meta.com)
+Drove Salesforce's "hard pivot" to **Agentforce** — the company's AI agent platform. While not a personal AI clone, Benioff is the most vocal tech CEO championing the AI agent paradigm, comparing the vision to "Iron Man's Jarvis."
 
-### Academic & Research
-- [AI Personalization and Digital Identity - MIT Media Lab](https://www.media.mit.edu/)
-- [Ethics of Celebrity AI Clones - Stanford HAI](https://hai.stanford.edu/)
-- [Voice Cloning Technology Review - Nature](https://www.nature.com/)
+- **What he built**: Agentforce — an enterprise platform for building and deploying autonomous AI agents on top of Salesforce apps
+- **Scale**: 380,000 AI agent conversations in 90 days with 84% resolution rate
+- **Vision**: Publicly floated rebranding the entire company as "Agentforce" (though Salesforce later called this "theoretical")
+- **Why it matters**: Represents the enterprise institutional bet on AI agents, with the company hiring no new engineers in 2025 due to AI productivity gains
+
+---
+
+## Key Themes
+
+| Trend | Leaders | Signal |
+|---|---|---|
+| **Open-source AI agent tooling** | Garry Tan, Andrej Karpathy | Tech leaders open-sourcing their personal AI workflows for others to adopt |
+| **Executive digital twins** | Reid Hoffman, Sebastian Siemiatkowski | Senior leaders creating AI replicas for communication and public engagement |
+| **Enterprise agent platforms** | Marc Benioff | Companies rebuilding their core products around AI agents |
+
+---
 
 ## Contributing
 
-Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+Contributions welcome. Please read the [contribution guidelines](CONTRIBUTING.md) first.
+
+**Inclusion criteria:**
+- Person must be a recognized leader in tech or AI
+- AI agent/twin must be publicly announced (ideally on X/Twitter)
+- Must be verifiable with credible sources
+- Quality over quantity — we intentionally keep this list small and curated
 
 ## License
 
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, the contributors have waived all copyright and related rights to this work. See [LICENSE](LICENSE) for details.
