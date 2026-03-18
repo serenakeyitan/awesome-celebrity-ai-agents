@@ -1,98 +1,28 @@
 # Awesome Celebrity AI Agents
 
-A curated list of tech and AI leaders who have built or launched personal AI agents, digital twins, and AI-powered tools — focused on quality over quantity.
+A curated list of tech and AI leaders who have personally built and open-sourced AI agents. Every entry has a GitHub link.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> This list focuses exclusively on verified tech/AI leaders who have publicly announced their AI agents on X (Twitter). Each entry includes who they are, what they built, and why it matters.
+> **Inclusion rules**: The person must be a recognized tech/AI leader. The agent must be open-source with a public repo. Company products don't count -- only personal or individually-driven projects. Quality over quantity.
 
 ## Contents
 
-- [AI Agent Builders](#ai-agent-builders)
-- [Digital Twins & AI Clones](#digital-twins--ai-clones)
-- [Platforms & Ecosystem](#platforms--ecosystem)
+- [The List](#the-list)
 - [Contributing](#contributing)
 
 ---
 
-## AI Agent Builders
+## The List
 
-Tech leaders who have open-sourced or publicly launched personal AI agent systems.
-
-### Garry Tan
-
-**CEO, Y Combinator** | [@garrytan](https://x.com/garrytan) | 1M+ followers
-
-Open-sourced **gstack** — his complete Claude Code setup that turns a single AI model into a virtual engineering team with 13 specialized agent roles (CEO, Eng Manager, Designer, QA Lead, Release Engineer, etc.). Announced on X in March 2026, it hit 10,000 GitHub stars in 48 hours.
-
-- **What he built**: [gstack](https://github.com/garrytan/gstack) — 10+ opinionated slash commands for Claude Code that separate planning, review, QA, and shipping into distinct AI agent personas
-- **Scale**: Averaged 10,000 LOC and 100 PRs/week over 50 days using this setup
-- **Key innovation**: A 200ms browser skill (`/browse`) using a long-lived headless Chromium daemon, and the separation of "plan review" from "code review" to prevent AI rubber-stamping
-- **Why it matters**: Demonstrates that a non-engineer CEO can ship production software at engineering-team velocity using well-structured AI agent prompts
-
-### Andrej Karpathy
-
-**Founder, Eureka Labs | Former Director of AI, Tesla | Co-founder, OpenAI** | [@karpathy](https://x.com/karpathy) | 1M+ followers
-
-Open-sourced **autoresearch** — an autonomous AI research agent that runs ML experiments overnight without human involvement. Announced on X in March 2026, the post received 8.6M views in two days.
-
-- **What he built**: [autoresearch](https://github.com/karpathy/autoresearch) — a 630-line Python script (MIT License) that automates the scientific method: modify code, train for 5 minutes, evaluate, keep or discard, repeat
-- **Results**: In one run, the agent completed 700 experiments over two days, found 20 additive improvements, and cut training time by 11%
-- **Key innovation**: Designed for single-GPU setups, making autonomous AI research accessible without cluster-scale compute
-- **Why it matters**: First widely-adopted open-source tool proving that AI agents can conduct meaningful ML research autonomously — Shopify's CEO reported a 19% model improvement from running it overnight
-
----
-
-## Digital Twins & AI Clones
-
-Tech leaders who have created AI replicas of themselves for public interaction.
-
-### Reid Hoffman
-
-**Co-founder, LinkedIn | Partner, Greylock** | [@reidhoffman](https://x.com/reidhoffman) | 3M+ followers
-
-Created **Reid AI** — a digital twin trained on 20+ years of his books, podcasts, interviews, speeches, and articles. The avatar delivers keynotes, responds to audience questions at conferences, and posts on his social channels in 9 languages.
-
-- **What he built**: Reid AI — a GPT-4-based conversational AI paired with a lifelike video avatar (HeyGen for visuals, ElevenLabs for voice cloning)
-- **Capabilities**: Dynamic facial expressions, natural voice delivery, accurate lip sync across 9 languages
-- **Use case**: Stands in at conferences and speaking engagements when Hoffman is unavailable; shares commentary on his social channels
-- **Why it matters**: One of the first major tech investors to fully deploy an AI twin as a public-facing representative, normalizing the concept for enterprise leaders
-
-### Sebastian Siemiatkowski
-
-**CEO, Klarna** | [@klarnaseb](https://x.com/klarnaseb) | 100K+ followers
-
-Used an **AI clone of himself** to deliver Klarna's Q1 2025 financial results and launched an AI-powered CEO hotline where customers can speak directly with his AI replica.
-
-- **What he built**: A hyperreal AI avatar for earnings reports, plus a customer feedback hotline featuring his AI voice clone trained on his voice and business insights
-- **Announcement**: The AI avatar video opened with: "It's me, or rather my AI avatar, here to share Klarna's Q1 2025 highlights"
-- **Results**: Reported 100M active consumers, fourth consecutive profitable quarter, 15% YoY revenue growth — all delivered by AI
-- **Why it matters**: First public-company CEO to delegate official financial communications to an AI clone, proving the concept works for investor-grade communications
-
----
-
-## Platforms & Ecosystem
-
-### Marc Benioff
-
-**CEO, Salesforce** | [@benioff](https://x.com/benioff) | 1.5M+ followers
-
-Drove Salesforce's "hard pivot" to **Agentforce** — the company's AI agent platform. While not a personal AI clone, Benioff is the most vocal tech CEO championing the AI agent paradigm, comparing the vision to "Iron Man's Jarvis."
-
-- **What he built**: Agentforce — an enterprise platform for building and deploying autonomous AI agents on top of Salesforce apps
-- **Scale**: 380,000 AI agent conversations in 90 days with 84% resolution rate
-- **Vision**: Publicly floated rebranding the entire company as "Agentforce" (though Salesforce later called this "theoretical")
-- **Why it matters**: Represents the enterprise institutional bet on AI agents, with the company hiring no new engineers in 2025 due to AI productivity gains
-
----
-
-## Key Themes
-
-| Trend | Leaders | Signal |
-|---|---|---|
-| **Open-source AI agent tooling** | Garry Tan, Andrej Karpathy | Tech leaders open-sourcing their personal AI workflows for others to adopt |
-| **Executive digital twins** | Reid Hoffman, Sebastian Siemiatkowski | Senior leaders creating AI replicas for communication and public engagement |
-| **Enterprise agent platforms** | Marc Benioff | Companies rebuilding their core products around AI agents |
+| Who | Role | Project | GitHub | What It Does |
+|-----|------|---------|--------|--------------|
+| **Garry Tan** ([@garrytan](https://x.com/garrytan), 1M+ followers) | CEO, Y Combinator | **gstack** | [garrytan/gstack](https://github.com/garrytan/gstack) | Turns Claude Code into a virtual engineering team with 13 specialized agent roles (CEO, Eng Manager, QA, etc.). 10K stars in 48 hours. Tan averaged 10K LOC and 100 PRs/week using it. |
+| **Andrej Karpathy** ([@karpathy](https://x.com/karpathy), 1M+ followers) | Founder, Eureka Labs; ex-Tesla AI Director; OpenAI co-founder | **autoresearch** | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 630-line Python script that runs autonomous ML experiments overnight. Completed 700 experiments in 2 days, found 20 improvements, cut training time 11%. 8.6M views on X. |
+| **Peter Steinberger** ([@steipete](https://x.com/steipete), 50K+ followers) | Founder, PSPDFKit; now at OpenAI | **OpenClaw** | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Personal AI assistant that works across WhatsApp, Telegram, Slack, Discord, iMessage, and 10+ other channels. 210K+ GitHub stars. Fastest-growing open-source project in GitHub history. |
+| **Yohei Nakajima** ([@yoheinakajima](https://x.com/yoheinakajima), 120K+ followers) | General Partner, Untapped Capital | **BabyAGI** | [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) | First popular open-source autonomous agent with task planning. Went viral in March 2023, 18K+ stars. Proved a VC with no CS degree could build an autonomous agent using AI tools. |
+| **Daniel Miessler** ([@DanielMiessler](https://x.com/DanielMiessler)) | Security researcher and author | **Fabric** | [danielmiessler/fabric](https://github.com/danielmiessler/fabric) | Open-source framework for augmenting humans using AI. 200+ specialized prompt patterns for real-world tasks. 99K+ stars. Also built [Personal AI Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) for agentic workflows. |
+| **Harrison Chase** ([@hwchase17](https://x.com/hwchase17)) | CEO & Co-founder, LangChain | **LangChain** | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | Started as a personal GitHub project in 9 days. Now the most popular agent-building framework: 99K+ stars, 130M+ downloads, $1.25B valuation. Powers agents at Rippling, Cloudflare, Replit, Harvey. |
 
 ---
 
@@ -100,11 +30,12 @@ Drove Salesforce's "hard pivot" to **Agentforce** — the company's AI agent pla
 
 Contributions welcome. Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
-**Inclusion criteria:**
+**Strict inclusion criteria:**
 - Person must be a recognized leader in tech or AI
-- AI agent/twin must be publicly announced (ideally on X/Twitter)
-- Must be verifiable with credible sources
-- Quality over quantity — we intentionally keep this list small and curated
+- Project must be open-source with a public GitHub repo
+- Company-built products don't qualify -- the person must be the individual creator or driver
+- Must be announced on X/Twitter with verifiable sources
+- We keep this list intentionally small
 
 ## License
 
